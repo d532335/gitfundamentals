@@ -4,7 +4,20 @@
 package gradlePractice;
 
 public class Library {
-    public boolean someLibraryMethod() {
+	
+	private String someStr;
+	
+	public boolean someLibraryMethod() {
         return true;
     }
+	
+    public String getSomeStr() {
+		return someStr;
+	}
+
+	public void setSomeStr(String someStr) {
+		this.someStr = someStr;
+	}
+
+	
 }
