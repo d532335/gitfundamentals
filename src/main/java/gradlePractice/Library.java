@@ -8,8 +8,8 @@ public class Library {
 	private String someStr;
 	private String anotherStr;
 	
-	public Library() {
-		
+	public Library(String str) {
+		someStr = str;
 	}
 	
 	public boolean someLibraryMethod() {
