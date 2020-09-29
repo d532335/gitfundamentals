@@ -6,7 +6,16 @@ package gradlePractice;
 public class Library {
 	
 	private String someStr;
+	private String anotherStr;
 	
+	public String getAnotherStr() {
+		return anotherStr;
+	}
+
+	public void setAnotherStr(String anotherStr) {
+		this.anotherStr = anotherStr;
+	}
+
 	public boolean someLibraryMethod() {
         return true;
     }
