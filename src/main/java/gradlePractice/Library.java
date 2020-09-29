@@ -8,6 +8,15 @@ public class Library {
 	private String someStr;
 	private String anotherStr;
 	
+	public Library() {
+		
+	}
+	
+	public boolean someLibraryMethod() {
+        return true;
+    }
+	
+    
 	public String getAnotherStr() {
 		return anotherStr;
 	}
@@ -16,11 +25,7 @@ public class Library {
 		this.anotherStr = anotherStr;
 	}
 
-	public boolean someLibraryMethod() {
-        return true;
-    }
-	
-    public String getSomeStr() {
+	public String getSomeStr() {
 		return someStr;
 	}
 
